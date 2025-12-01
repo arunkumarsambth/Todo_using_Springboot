@@ -1,0 +1,28 @@
+package arun.firstspring.HelloWorld.models;
+
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import jakarta.validation.constraints.Email;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Entity
+@Builder
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Table(name = "UserTable")
+public class User {
+    @Id
+    @GeneratedValue
+    private long id;
+    @Email
+    private String email;
+    private String password;
+}

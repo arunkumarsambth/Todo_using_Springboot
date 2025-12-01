@@ -1,0 +1,1071 @@
+﻿.\mvnw.cmd : 
+WARNING: A 
+terminally 
+deprecated method in 
+sun.misc.Unsafe has 
+been called
+At line:1 char:1
++ .\mvnw.cmd test 
+-Dtest=SecurityTest 
+> test_output.txt 
+2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (WARNING   
+ : A term...has b    
+een called:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+WARNING: sun.misc.Uns
+afe::staticFieldBase 
+has been called by co
+m.google.inject.inter
+nal.aop.HiddenClassDe
+finer (file:/C:/Users
+/aruns/.m2/wrapper/di
+sts/apache-maven-3.9.
+11/03d7e36a140982eea4
+8e22c1dcac01d8862b255
+0b2939e09a0809bbc5182
+a5bc/lib/guice-5.1.0-
+classes.jar)
+WARNING: Please 
+consider reporting 
+this to the 
+maintainers of class 
+com.google.inject.int
+ernal.aop.HiddenClass
+Definer
+WARNING: sun.misc.Uns
+afe::staticFieldBase 
+will be removed in a 
+future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< arun.firstspring:HelloWorld >---------------------
+[INFO] Building HelloWorld 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ HelloWorld ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ HelloWorld ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ HelloWorld ---
+[INFO] skip non existing resourceDirectory S:\JavaDevelopement\NewProject\HelloWorld\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ HelloWorld ---
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 2 source files with javac [debug parameters release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ HelloWorld ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.4/surefire-api-3.5.4.jar
+Progress (1): 0.9/174 kB
+Progress (1): 2.3/174 kB
+Progress (1): 3.6/174 kB
+Progress (1): 3.7/174 kB
+Progress (1): 5.1/174 kB
+Progress (1): 6.5/174 kB
+Progress (1): 7.8/174 kB
+Progress (1): 9.2/174 kB
+Progress (1): 11/174 kB 
+Progress (1): 12/174 kB
+Progress (1): 13/174 kB
+Progress (1): 15/174 kB
+Progress (1): 16/174 kB
+Progress (1): 17/174 kB
+Progress (1): 19/174 kB
+Progress (1): 20/174 kB
+Progress (1): 22/174 kB
+Progress (1): 23/174 kB
+Progress (1): 24/174 kB
+Progress (1): 26/174 kB
+Progress (1): 27/174 kB
+Progress (1): 28/174 kB
+Progress (1): 30/174 kB
+Progress (1): 31/174 kB
+Progress (1): 32/174 kB
+Progress (1): 34/174 kB
+Progress (1): 35/174 kB
+Progress (1): 37/174 kB
+Progress (1): 38/174 kB
+Progress (1): 39/174 kB
+Progress (1): 41/174 kB
+Progress (1): 42/174 kB
+Progress (1): 43/174 kB
+Progress (1): 45/174 kB
+Progress (1): 46/174 kB
+Progress (1): 48/174 kB
+Progress (1): 49/174 kB
+Progress (1): 50/174 kB
+Progress (1): 52/174 kB
+Progress (1): 53/174 kB
+Progress (1): 54/174 kB
+Progress (1): 59/174 kB
+Progress (1): 63/174 kB
+Progress (1): 67/174 kB
+Progress (1): 71/174 kB
+Progress (1): 76/174 kB
+Progress (1): 80/174 kB
+Progress (1): 84/174 kB
+Progress (1): 88/174 kB
+Progress (1): 92/174 kB
+Progress (1): 97/174 kB
+Progress (1): 101/174 kB
+Progress (1): 105/174 kB
+Progress (1): 109/174 kB
+Progress (1): 114/174 kB
+Progress (1): 118/174 kB
+Progress (1): 122/174 kB
+Progress (1): 126/174 kB
+Progress (1): 131/174 kB
+Progress (1): 135/174 kB
+Progress (1): 135/174 kB
+Progress (1): 139/174 kB
+Progress (1): 143/174 kB
+Progress (1): 147/174 kB
+Progress (1): 152/174 kB
+Progress (1): 156/174 kB
+Progress (1): 160/174 kB
+Progress (1): 164/174 kB
+Progress (1): 169/174 kB
+Progress (1): 173/174 kB
+Progress (1): 174 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.4/surefire-api-3.5.4.jar (174 kB at 202 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.4/surefire-logger-api-3.5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.4/surefire-shared-utils-3.5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.4/surefire-extensions-api-3.5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.4/maven-surefire-common-3.5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.4/surefire-booter-3.5.4.jar
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.1/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.2/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.3/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.4/2.9 MB
+Progress (1): 0.5/2.9 MB
+Progress (2): 0.5/2.9 MB | 0.9/14 kB
+Progress (2): 0.5/2.9 MB | 2.3/14 kB
+Progress (3): 0.5/2.9 MB | 2.3/14 kB | 0.9/26 kB
+Progress (3): 0.5/2.9 MB | 2.3/14 kB | 2.3/26 kB
+Progress (3): 0.5/2.9 MB | 3.6/14 kB | 2.3/26 kB
+Progress (3): 0.5/2.9 MB | 5.0/14 kB | 2.3/26 kB
+Progress (3): 0.5/2.9 MB | 6.4/14 kB | 2.3/26 kB
+Progress (3): 0.5/2.9 MB | 7.7/14 kB | 2.3/26 kB
+Progress (3): 0.5/2.9 MB | 8.2/14 kB | 2.3/26 kB
+Progress (3): 0.5/2.9 MB | 9.6/14 kB | 2.3/26 kB
+Progress (3): 0.5/2.9 MB | 11/14 kB | 2.3/26 kB 
+Progress (3): 0.5/2.9 MB | 12/14 kB | 2.3/26 kB
+Progress (3): 0.5/2.9 MB | 14 kB | 2.3/26 kB   
+Progress (3): 0.5/2.9 MB | 14 kB | 3.6/26 kB
+Progress (4): 0.5/2.9 MB | 14 kB | 3.6/26 kB | 0.9/119 kB
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.4/surefire-logger-api-3.5.4.jar (14 kB at 41 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.4/surefire-extensions-spi-3.5.4.jar
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 0.9/119 kB | 0.9/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 0.9/119 kB | 2.3/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 0.9/119 kB | 3.6/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 0.9/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 2.3/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 3.6/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 5.0/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 6.4/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 7.7/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 9.1/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 10/119 kB | 3.7/314 kB 
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 12/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 13/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 15/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 3.6/26 kB | 16/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 5.0/26 kB | 16/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 5.0/26 kB | 17/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 6.4/26 kB | 17/119 kB | 3.7/314 kB
+Progress (4): 0.5/2.9 MB | 6.4/26 kB | 17/119 kB | 5.1/314 kB
+Progress (4): 0.5/2.9 MB | 7.7/26 kB | 17/119 kB | 5.1/314 kB
+Progress (4): 0.5/2.9 MB | 7.7/26 kB | 17/119 kB | 6.4/314 kB
+Progress (4): 0.5/2.9 MB | 9.1/26 kB | 17/119 kB | 6.4/314 kB
+Progress (4): 0.5/2.9 MB | 10/26 kB | 17/119 kB | 6.4/314 kB 
+Progress (4): 0.5/2.9 MB | 10/26 kB | 19/119 kB | 6.4/314 kB
+Progress (4): 0.5/2.9 MB | 10/26 kB | 19/119 kB | 7.8/314 kB
+Progress (4): 0.5/2.9 MB | 12/26 kB | 19/119 kB | 7.8/314 kB
+Progress (4): 0.5/2.9 MB | 12/26 kB | 20/119 kB | 7.8/314 kB
+Progress (4): 0.5/2.9 MB | 13/26 kB | 20/119 kB | 7.8/314 kB
+Progress (4): 0.5/2.9 MB | 13/26 kB | 21/119 kB | 7.8/314 kB
+Progress (4): 0.5/2.9 MB | 15/26 kB | 21/119 kB | 7.8/314 kB
+Progress (4): 0.5/2.9 MB | 15/26 kB | 21/119 kB | 9.2/314 kB
+Progress (4): 0.5/2.9 MB | 15/26 kB | 21/119 kB | 11/314 kB 
+Progress (4): 0.5/2.9 MB | 15/26 kB | 21/119 kB | 12/314 kB
+Progress (4): 0.5/2.9 MB | 15/26 kB | 21/119 kB | 13/314 kB
+Progress (4): 0.5/2.9 MB | 15/26 kB | 21/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 16/26 kB | 21/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 16/26 kB | 23/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 17/26 kB | 23/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 17/26 kB | 24/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 19/26 kB | 24/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 19/26 kB | 26/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 20/26 kB | 26/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 20/26 kB | 27/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 21/26 kB | 27/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 21/26 kB | 28/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 23/26 kB | 28/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 23/26 kB | 30/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 24/26 kB | 30/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 24/26 kB | 31/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 25/26 kB | 31/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 25/26 kB | 32/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 32/119 kB | 15/314 kB   
+Progress (4): 0.5/2.9 MB | 26 kB | 34/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 35/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 36/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 38/119 kB | 15/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 38/119 kB | 16/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 39/119 kB | 16/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 41/119 kB | 16/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 41/119 kB | 17/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 42/119 kB | 17/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 42/119 kB | 19/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 43/119 kB | 19/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 43/119 kB | 20/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 45/119 kB | 20/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 45/119 kB | 22/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 46/119 kB | 22/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 46/119 kB | 23/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 47/119 kB | 23/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 47/119 kB | 24/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 49/119 kB | 24/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 50/119 kB | 24/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 50/119 kB | 26/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 52/119 kB | 26/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 52/119 kB | 27/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 53/119 kB | 27/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 53/119 kB | 28/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 54/119 kB | 28/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 54/119 kB | 30/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 56/119 kB | 30/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 56/119 kB | 31/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 56/119 kB | 32/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 32/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 34/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 35/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 37/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 38/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 39/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 41/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 42/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 43/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 45/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 46/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 48/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 49/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 50/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 52/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 53/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 54/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 59/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 63/314 kB
+Progress (4): 0.5/2.9 MB | 26 kB | 60/119 kB | 63/314 kB
+                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.4/surefire-extensions-api-3.5.4.jar (26 kB at 75 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.5.0/plexus-java-1.5.0.jar
+Progress (3): 0.5/2.9 MB | 60/119 kB | 63/314 kB
+Progress (3): 0.5/2.9 MB | 60/119 kB | 63/314 kB
+Progress (3): 0.5/2.9 MB | 60/119 kB | 63/314 kB
+Progress (3): 0.5/2.9 MB | 64/119 kB | 63/314 kB
+Progress (3): 0.5/2.9 MB | 64/119 kB | 67/314 kB
+Progress (3): 0.5/2.9 MB | 64/119 kB | 71/314 kB
+Progress (3): 0.5/2.9 MB | 64/119 kB | 71/314 kB
+Progress (3): 0.5/2.9 MB | 64/119 kB | 76/314 kB
+Progress (3): 0.5/2.9 MB | 64/119 kB | 80/314 kB
+Progress (3): 0.5/2.9 MB | 68/119 kB | 80/314 kB
+Progress (3): 0.5/2.9 MB | 73/119 kB | 80/314 kB
+Progress (3): 0.5/2.9 MB | 77/119 kB | 80/314 kB
+Progress (3): 0.5/2.9 MB | 77/119 kB | 84/314 kB
+Progress (3): 0.5/2.9 MB | 77/119 kB | 88/314 kB
+Progress (3): 0.5/2.9 MB | 77/119 kB | 92/314 kB
+Progress (3): 0.5/2.9 MB | 81/119 kB | 92/314 kB
+Progress (3): 0.5/2.9 MB | 81/119 kB | 97/314 kB
+Progress (3): 0.5/2.9 MB | 81/119 kB | 101/314 kB
+Progress (3): 0.5/2.9 MB | 85/119 kB | 101/314 kB
+Progress (3): 0.5/2.9 MB | 85/119 kB | 105/314 kB
+Progress (3): 0.5/2.9 MB | 89/119 kB | 105/314 kB
+Progress (3): 0.5/2.9 MB | 89/119 kB | 109/314 kB
+Progress (3): 0.5/2.9 MB | 94/119 kB | 109/314 kB
+Progress (3): 0.5/2.9 MB | 94/119 kB | 114/314 kB
+Progress (3): 0.5/2.9 MB | 98/119 kB | 114/314 kB
+Progress (3): 0.5/2.9 MB | 98/119 kB | 118/314 kB
+Progress (3): 0.5/2.9 MB | 98/119 kB | 118/314 kB
+Progress (3): 0.5/2.9 MB | 102/119 kB | 118/314 kB
+Progress (3): 0.5/2.9 MB | 106/119 kB | 118/314 kB
+Progress (3): 0.5/2.9 MB | 106/119 kB | 123/314 kB
+Progress (3): 0.5/2.9 MB | 106/119 kB | 127/314 kB
+Progress (3): 0.6/2.9 MB | 106/119 kB | 127/314 kB
+Progress (3): 0.6/2.9 MB | 106/119 kB | 127/314 kB
+Progress (3): 0.6/2.9 MB | 106/119 kB | 127/314 kB
+Progress (3): 0.6/2.9 MB | 111/119 kB | 127/314 kB
+Progress (3): 0.6/2.9 MB | 111/119 kB | 127/314 kB
+Progress (3): 0.6/2.9 MB | 111/119 kB | 127/314 kB
+Progress (3): 0.6/2.9 MB | 115/119 kB | 127/314 kB
+Progress (3): 0.6/2.9 MB | 119 kB | 127/314 kB    
+Progress (3): 0.6/2.9 MB | 119 kB | 127/314 kB
+Progress (3): 0.7/2.9 MB | 119 kB | 127/314 kB
+Progress (3): 0.7/2.9 MB | 119 kB | 127/314 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.4/surefire-booter-3.5.4.jar (119 kB at 316 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.8/asm-9.8.jar
+Progress (2): 0.7/2.9 MB | 127/314 kB
+Progress (2): 0.7/2.9 MB | 127/314 kB
+Progress (2): 0.7/2.9 MB | 127/314 kB
+Progress (2): 0.7/2.9 MB | 127/314 kB
+Progress (2): 0.7/2.9 MB | 127/314 kB
+Progress (2): 0.8/2.9 MB | 127/314 kB
+Progress (2): 0.8/2.9 MB | 127/314 kB
+Progress (2): 0.8/2.9 MB | 127/314 kB
+Progress (2): 0.8/2.9 MB | 127/314 kB
+Progress (2): 0.8/2.9 MB | 127/314 kB
+Progress (2): 0.8/2.9 MB | 127/314 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 0.9/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 2.3/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 3.6/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 5.0/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 6.4/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 7.7/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 9.1/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 10/57 kB 
+Progress (3): 0.8/2.9 MB | 127/314 kB | 12/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 13/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 15/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 16/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 17/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 19/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 20/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 21/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 23/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 24/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 25/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 26/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 27/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 32/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 36/57 kB
+Progress (3): 0.8/2.9 MB | 127/314 kB | 40/57 kB
+Progress (4): 0.8/2.9 MB | 127/314 kB | 40/57 kB | 0.9/8.2 kB
+Progress (4): 0.8/2.9 MB | 127/314 kB | 40/57 kB | 2.3/8.2 kB
+Progress (4): 0.8/2.9 MB | 127/314 kB | 40/57 kB | 3.6/8.2 kB
+Progress (4): 0.8/2.9 MB | 127/314 kB | 40/57 kB | 3.7/8.2 kB
+Progress (4): 0.8/2.9 MB | 127/314 kB | 40/57 kB | 5.1/8.2 kB
+Progress (4): 0.8/2.9 MB | 127/314 kB | 44/57 kB | 5.1/8.2 kB
+Progress (4): 0.8/2.9 MB | 131/314 kB | 44/57 kB | 5.1/8.2 kB
+Progress (4): 0.8/2.9 MB | 131/314 kB | 44/57 kB | 6.5/8.2 kB
+Progress (4): 0.8/2.9 MB | 131/314 kB | 44/57 kB | 7.8/8.2 kB
+Progress (4): 0.8/2.9 MB | 131/314 kB | 44/57 kB | 8.2 kB    
+Progress (4): 0.8/2.9 MB | 131/314 kB | 48/57 kB | 8.2 kB
+Progress (4): 0.8/2.9 MB | 135/314 kB | 48/57 kB | 8.2 kB
+Progress (4): 0.8/2.9 MB | 135/314 kB | 53/57 kB | 8.2 kB
+Progress (4): 0.8/2.9 MB | 140/314 kB | 53/57 kB | 8.2 kB
+Progress (4): 0.8/2.9 MB | 140/314 kB | 57/57 kB | 8.2 kB
+Progress (4): 0.8/2.9 MB | 140/314 kB | 57 kB | 8.2 kB   
+Progress (4): 0.8/2.9 MB | 144/314 kB | 57 kB | 8.2 kB
+Progress (4): 0.8/2.9 MB | 148/314 kB | 57 kB | 8.2 kB
+Progress (4): 0.8/2.9 MB | 152/314 kB | 57 kB | 8.2 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.5.0/plexus-java-1.5.0.jar (57 kB at 142 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.4/surefire-extensions-spi-3.5.4.jar (8.2 kB at 20 kB/s)
+Progress (2): 0.8/2.9 MB | 156/314 kB
+Progress (2): 0.8/2.9 MB | 161/314 kB
+Progress (2): 0.8/2.9 MB | 165/314 kB
+Progress (2): 0.8/2.9 MB | 169/314 kB
+Progress (2): 0.8/2.9 MB | 173/314 kB
+Progress (2): 0.8/2.9 MB | 178/314 kB
+Progress (2): 0.8/2.9 MB | 182/314 kB
+Progress (2): 0.8/2.9 MB | 186/314 kB
+Progress (2): 0.8/2.9 MB | 190/314 kB
+Progress (2): 0.8/2.9 MB | 195/314 kB
+Progress (2): 0.8/2.9 MB | 199/314 kB
+Progress (2): 0.8/2.9 MB | 203/314 kB
+Progress (2): 0.8/2.9 MB | 207/314 kB
+Progress (2): 0.9/2.9 MB | 207/314 kB
+Progress (2): 0.9/2.9 MB | 211/314 kB
+Progress (2): 0.9/2.9 MB | 216/314 kB
+Progress (2): 0.9/2.9 MB | 220/314 kB
+Progress (2): 0.9/2.9 MB | 220/314 kB
+Progress (2): 0.9/2.9 MB | 236/314 kB
+Progress (2): 0.9/2.9 MB | 249/314 kB
+Progress (2): 0.9/2.9 MB | 249/314 kB
+Progress (2): 0.9/2.9 MB | 249/314 kB
+Progress (2): 0.9/2.9 MB | 249/314 kB
+Progress (2): 0.9/2.9 MB | 249/314 kB
+Progress (2): 1.0/2.9 MB | 249/314 kB
+Progress (2): 1.0/2.9 MB | 249/314 kB
+Progress (2): 1.0/2.9 MB | 249/314 kB
+Progress (2): 1.0/2.9 MB | 249/314 kB
+Progress (2): 1.0/2.9 MB | 249/314 kB
+Progress (2): 1.0/2.9 MB | 249/314 kB
+Progress (2): 1.1/2.9 MB | 249/314 kB
+Progress (2): 1.1/2.9 MB | 249/314 kB
+Progress (2): 1.1/2.9 MB | 249/314 kB
+Progress (2): 1.1/2.9 MB | 249/314 kB
+Progress (2): 1.1/2.9 MB | 249/314 kB
+Progress (2): 1.1/2.9 MB | 249/314 kB
+Progress (2): 1.2/2.9 MB | 249/314 kB
+Progress (2): 1.2/2.9 MB | 249/314 kB
+Progress (2): 1.2/2.9 MB | 266/314 kB
+Progress (2): 1.2/2.9 MB | 266/314 kB
+Progress (2): 1.2/2.9 MB | 266/314 kB
+Progress (2): 1.2/2.9 MB | 282/314 kB
+Progress (2): 1.2/2.9 MB | 299/314 kB
+Progress (2): 1.2/2.9 MB | 314 kB    
+Progress (2): 1.2/2.9 MB | 314 kB
+Progress (2): 1.2/2.9 MB | 314 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.4/maven-surefire-common-3.5.4.jar (314 kB at 609 kB/s)
+Progress (1): 1.3/2.9 MB
+Progress (1): 1.3/2.9 MB
+Progress (1): 1.3/2.9 MB
+Progress (1): 1.3/2.9 MB
+Progress (1): 1.3/2.9 MB
+Progress (1): 1.3/2.9 MB
+Progress (1): 1.4/2.9 MB
+Progress (1): 1.4/2.9 MB
+Progress (1): 1.4/2.9 MB
+Progress (2): 1.4/2.9 MB | 3.8/126 kB
+Progress (2): 1.4/2.9 MB | 8.0/126 kB
+Progress (2): 1.4/2.9 MB | 12/126 kB 
+Progress (2): 1.4/2.9 MB | 16/126 kB
+Progress (2): 1.4/2.9 MB | 21/126 kB
+Progress (2): 1.4/2.9 MB | 25/126 kB
+Progress (2): 1.4/2.9 MB | 25/126 kB
+Progress (2): 1.4/2.9 MB | 29/126 kB
+Progress (2): 1.4/2.9 MB | 33/126 kB
+Progress (2): 1.4/2.9 MB | 37/126 kB
+Progress (2): 1.4/2.9 MB | 41/126 kB
+Progress (2): 1.4/2.9 MB | 46/126 kB
+Progress (2): 1.4/2.9 MB | 50/126 kB
+Progress (2): 1.4/2.9 MB | 54/126 kB
+Progress (2): 1.4/2.9 MB | 54/126 kB
+Progress (2): 1.4/2.9 MB | 58/126 kB
+Progress (2): 1.4/2.9 MB | 63/126 kB
+Progress (2): 1.4/2.9 MB | 67/126 kB
+Progress (2): 1.4/2.9 MB | 71/126 kB
+Progress (2): 1.4/2.9 MB | 75/126 kB
+Progress (2): 1.4/2.9 MB | 80/126 kB
+Progress (2): 1.4/2.9 MB | 84/126 kB
+Progress (2): 1.4/2.9 MB | 88/126 kB
+Progress (2): 1.4/2.9 MB | 92/126 kB
+Progress (2): 1.4/2.9 MB | 96/126 kB
+Progress (2): 1.4/2.9 MB | 101/126 kB
+Progress (2): 1.4/2.9 MB | 105/126 kB
+Progress (2): 1.4/2.9 MB | 105/126 kB
+Progress (2): 1.5/2.9 MB | 105/126 kB
+Progress (2): 1.5/2.9 MB | 121/126 kB
+Progress (2): 1.5/2.9 MB | 126 kB    
+Progress (2): 1.5/2.9 MB | 126 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.8/asm-9.8.jar (126 kB at 227 kB/s)
+Progress (1): 1.5/2.9 MB
+Progress (1): 1.5/2.9 MB
+Progress (1): 1.5/2.9 MB
+Progress (1): 1.5/2.9 MB
+Progress (1): 1.6/2.9 MB
+Progress (1): 1.6/2.9 MB
+Progress (1): 1.6/2.9 MB
+Progress (1): 1.6/2.9 MB
+Progress (1): 1.6/2.9 MB
+Progress (1): 1.6/2.9 MB
+Progress (1): 1.7/2.9 MB
+Progress (1): 1.7/2.9 MB
+Progress (1): 1.7/2.9 MB
+Progress (1): 1.7/2.9 MB
+Progress (1): 1.7/2.9 MB
+Progress (1): 1.7/2.9 MB
+Progress (1): 1.7/2.9 MB
+Progress (1): 1.8/2.9 MB
+Progress (1): 1.8/2.9 MB
+Progress (1): 1.8/2.9 MB
+Progress (1): 1.8/2.9 MB
+Progress (1): 1.8/2.9 MB
+Progress (1): 1.8/2.9 MB
+Progress (1): 1.9/2.9 MB
+Progress (1): 1.9/2.9 MB
+Progress (1): 1.9/2.9 MB
+Progress (1): 1.9/2.9 MB
+Progress (1): 1.9/2.9 MB
+Progress (1): 1.9/2.9 MB
+Progress (1): 2.0/2.9 MB
+Progress (1): 2.0/2.9 MB
+Progress (1): 2.0/2.9 MB
+Progress (1): 2.0/2.9 MB
+Progress (1): 2.0/2.9 MB
+Progress (1): 2.0/2.9 MB
+Progress (1): 2.1/2.9 MB
+Progress (1): 2.1/2.9 MB
+Progress (1): 2.1/2.9 MB
+Progress (1): 2.1/2.9 MB
+Progress (1): 2.1/2.9 MB
+Progress (1): 2.1/2.9 MB
+Progress (1): 2.2/2.9 MB
+Progress (1): 2.2/2.9 MB
+Progress (1): 2.2/2.9 MB
+Progress (1): 2.2/2.9 MB
+Progress (1): 2.2/2.9 MB
+Progress (1): 2.2/2.9 MB
+Progress (1): 2.3/2.9 MB
+Progress (1): 2.3/2.9 MB
+Progress (1): 2.3/2.9 MB
+Progress (1): 2.3/2.9 MB
+Progress (1): 2.3/2.9 MB
+Progress (1): 2.3/2.9 MB
+Progress (1): 2.4/2.9 MB
+Progress (1): 2.4/2.9 MB
+Progress (1): 2.4/2.9 MB
+Progress (1): 2.4/2.9 MB
+Progress (1): 2.4/2.9 MB
+Progress (1): 2.4/2.9 MB
+Progress (1): 2.5/2.9 MB
+Progress (1): 2.5/2.9 MB
+Progress (1): 2.5/2.9 MB
+Progress (1): 2.5/2.9 MB
+Progress (1): 2.5/2.9 MB
+Progress (1): 2.5/2.9 MB
+Progress (1): 2.6/2.9 MB
+Progress (1): 2.6/2.9 MB
+Progress (1): 2.6/2.9 MB
+Progress (1): 2.6/2.9 MB
+Progress (1): 2.6/2.9 MB
+Progress (1): 2.6/2.9 MB
+Progress (1): 2.7/2.9 MB
+Progress (1): 2.7/2.9 MB
+Progress (1): 2.7/2.9 MB
+Progress (1): 2.7/2.9 MB
+Progress (1): 2.7/2.9 MB
+Progress (1): 2.7/2.9 MB
+Progress (1): 2.7/2.9 MB
+Progress (1): 2.8/2.9 MB
+Progress (1): 2.8/2.9 MB
+Progress (1): 2.8/2.9 MB
+Progress (1): 2.8/2.9 MB
+Progress (1): 2.8/2.9 MB
+Progress (1): 2.8/2.9 MB
+Progress (1): 2.9/2.9 MB
+Progress (1): 2.9/2.9 MB
+Progress (1): 2.9/2.9 MB
+Progress (1): 2.9/2.9 MB
+Progress (1): 2.9/2.9 MB
+Progress (1): 2.9/2.9 MB
+Progress (1): 2.9 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.4/surefire-shared-utils-3.5.4.jar (2.9 MB at 4.0 MB/s)
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.4/surefire-junit-platform-3.5.4.pom
+Progress (1): 833 B
+Progress (1): 3.9 kB
+Progress (1): 5.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.4/surefire-junit-platform-3.5.4.pom (5.2 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.4/surefire-providers-3.5.4.pom
+Progress (1): 838 B
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.4/surefire-providers-3.5.4.pom (2.5 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.4/common-java5-3.5.4.pom
+Progress (1): 839 B
+Progress (1): 2.8 kB
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.4/common-java5-3.5.4.pom (3.1 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.4/surefire-junit-platform-3.5.4.jar
+Progress (1): 3.7/35 kB
+Progress (1): 20/35 kB 
+Progress (1): 35 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.4/surefire-junit-platform-3.5.4.jar (35 kB at 328 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.4/common-java5-3.5.4.jar
+Progress (1): 7.7/18 kB
+Progress (1): 16/18 kB 
+Progress (1): 18 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.4/common-java5-3.5.4.jar (18 kB at 64 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running arun.firstspring.HelloWorld.SecurityTest
+19:44:07.737 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [arun.firstspring.HelloWorld.SecurityTest]: SecurityTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:44:07.856 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration arun.firstspring.HelloWorld.HelloWorldApplication for test class arun.firstspring.HelloWorld.SecurityTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2025-11-30T19:44:08.353+05:30  INFO 8180 --- [HelloWorld] [           main] a.firstspring.HelloWorld.SecurityTest    : Starting SecurityTest using Java 24.0.1 with PID 8180 (started by aruns in S:\JavaDevelopement\NewProject\HelloWorld)
+2025-11-30T19:44:08.354+05:30  INFO 8180 --- [HelloWorld] [           main] a.firstspring.HelloWorld.SecurityTest    : No active profile set, falling back to 1 default profile: "default"
+2025-11-30T19:44:09.139+05:30  INFO 8180 --- [HelloWorld] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-30T19:44:09.190+05:30  INFO 8180 --- [HelloWorld] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2025-11-30T19:44:09.915+05:30  INFO 8180 --- [HelloWorld] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-30T19:44:10.033+05:30  INFO 8180 --- [HelloWorld] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-30T19:44:10.058+05:30  INFO 8180 --- [HelloWorld] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-30T19:44:10.445+05:30  INFO 8180 --- [HelloWorld] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-30T19:44:10.477+05:30  INFO 8180 --- [HelloWorld] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-30T19:44:10.657+05:30  INFO 8180 --- [HelloWorld] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7254838
+2025-11-30T19:44:10.658+05:30  INFO 8180 --- [HelloWorld] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-30T19:44:10.686+05:30  WARN 8180 --- [HelloWorld] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-30T19:44:10.707+05:30  INFO 8180 --- [HelloWorld] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-30T19:44:11.642+05:30  INFO 8180 --- [HelloWorld] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: alter table if exists todo add column completed boolean not null
+2025-11-30T19:44:11.684+05:30  WARN 8180 --- [HelloWorld] [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists todo add column completed boolean not null" via JDBC [ERROR: column "completed" of relation "todo" contains null values]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists todo add column completed boolean not null" via JDBC [ERROR: column "completed" of relation "todo" contains null values]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.11.jar:6.2.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.11.jar:6.2.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.11.jar:6.2.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.11.jar:6.2.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:144) ~[spring-boot-test-3.5.6.jar:3.5.6]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.2.11.jar:6.2.11]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.2.11.jar:6.2.11]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1461) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:563) ~[spring-boot-test-3.5.6.jar:3.5.6]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144) ~[spring-boot-test-3.5.6.jar:3.5.6]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:110) ~[spring-boot-test-3.5.6.jar:3.5.6]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.2.11.jar:6.2.11]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.2.11.jar:6.2.11]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.2.11.jar:6.2.11]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:200) ~[spring-test-6.2.11.jar:6.2.11]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:139) ~[spring-test-6.2.11.jar:6.2.11]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.2.11.jar:6.2.11]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:159) ~[spring-test-6.2.11.jar:6.2.11]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:388) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:382) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:382) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:293) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:292) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:281) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:280) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:112) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:111) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithoutCancellationToken(LauncherAdapter.java:60) ~[surefire-junit-platform-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:52) ~[surefire-junit-platform-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203) ~[surefire-junit-platform-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168) ~[surefire-junit-platform-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136) ~[surefire-junit-platform-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.5.4.jar:3.5.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.5.4.jar:3.5.4]
+Caused by: org.postgresql.util.PSQLException: ERROR: column "completed" of relation "todo" contains null values
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:357) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:342) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:318) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:313) ~[postgresql-42.7.7.jar:42.7.7]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	... 122 common frames omitted
+
+2025-11-30T19:44:11.692+05:30  INFO 8180 --- [HelloWorld] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+JwtUtiles: Initialized with secret key hash: -1850706384
+2025-11-30T19:44:12.170+05:30  WARN 8180 --- [HelloWorld] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-30T19:44:12.215+05:30  WARN 8180 --- [HelloWorld] [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 539e25d6-2276-4af1-84b2-3253c54af0a7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-30T19:44:12.229+05:30  INFO 8180 --- [HelloWorld] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-11-30T19:44:13.262+05:30  INFO 8180 --- [HelloWorld] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-11-30T19:44:13.262+05:30  INFO 8180 --- [HelloWorld] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-11-30T19:44:13.263+05:30  INFO 8180 --- [HelloWorld] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-11-30T19:44:13.297+05:30  INFO 8180 --- [HelloWorld] [           main] a.firstspring.HelloWorld.SecurityTest    : Started SecurityTest in 5.213 seconds (process running for 6.293)
+Mockito is currently 
+self-attaching to 
+enable the 
+inline-mock-maker. 
+This will no longer 
+work in future 
+releases of the JDK. 
+Please add Mockito 
+as an agent to your 
+build as described 
+in Mockito's 
+documentation: https:
+//javadoc.io/doc/org.
+mockito/mockito-core/
+latest/org.mockito/or
+g/mockito/Mockito.htm
+l#0.3
+Java HotSpot(TM) 
+64-Bit Server VM 
+warning: Sharing is 
+only supported for 
+boot loader classes 
+because bootstrap 
+classpath has been 
+appended
+WARNING: A Java 
+agent has been 
+loaded dynamically (C
+:\Users\aruns\.m2\rep
+ository\net\bytebuddy
+\byte-buddy-agent\1.1
+7.7\byte-buddy-agent-
+1.17.7.jar)
+WARNING: If a 
+serviceability tool 
+is in use, please 
+run with -XX:+EnableD
+ynamicAgentLoading 
+to hide this warning
+WARNING: If a 
+serviceability tool 
+is not in use, 
+please run with -Djdk
+.instrument.traceUsag
+e for more 
+information
+WARNING: Dynamic 
+loading of agents 
+will be disallowed 
+by default in a 
+future release
+JwtFilter: Processing request /todo
+JwtFilter: Processing token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIn0.CPtinmsQ6myl7ePy92VtSlYzCyo9CJsi34ZwDgmTets
+JwtUtiles: Validating token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIn0.CPtinmsQ6myl7ePy92VtSlYzCyo9CJsi34ZwDgmTets
+JwtFilter: Token valid for user: test@example.com
+TodoControler: getTodos called
+Hibernate: select t1_0.id,t1_0.completed,t1_0.mail,t1_0.todo_name from todo t1_0
+2025-11-30T19:44:14.069+05:30  WARN 8180 --- [HelloWorld] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42703
+2025-11-30T19:44:14.069+05:30 ERROR 8180 --- [HelloWorld] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: column t1_0.completed does not exist
+  Position: 16
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.583 s <<< FAILURE! -- in arun.firstspring.HelloWorld.SecurityTest
+[ERROR] arun.firstspring.HelloWorld.SecurityTest.testAccessProtectedResourceWithValidToken -- Time elapsed: 0.852 s <<< ERROR!
+jakarta.servlet.ServletException: 
+Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select t1_0.id,t1_0.completed,t1_0.mail,t1_0.todo_name from todo t1_0] [ERROR: column t1_0.completed does not exist
+  Position: 16] [n/a]; SQL [n/a]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at arun.firstspring.HelloWorld.JwtFilter.doFilterInternal(JwtFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:162)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at arun.firstspring.HelloWorld.SecurityTest.testAccessProtectedResourceWithValidToken(SecurityTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+Caused by: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select t1_0.id,t1_0.completed,t1_0.mail,t1_0.todo_name from todo t1_0] [ERROR: column t1_0.completed does not exist
+  Position: 16] [n/a]; SQL [n/a]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:281)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:256)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:560)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:343)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy134.findAll(Unknown Source)
+	at arun.firstspring.HelloWorld.Servies.TodoServies.getAlltodo(TodoServies.java:30)
+	at arun.firstspring.HelloWorld.Controler.TodoControler.getTodos(TodoControler.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	... 77 more
+Caused by: org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [select t1_0.id,t1_0.completed,t1_0.mail,t1_0.todo_name from todo t1_0] [ERROR: column t1_0.completed does not exist
+  Position: 16] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:91)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:269)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:172)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:149)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:439)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:359)
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380)
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143)
+	at org.hibernate.query.Query.getResultList(Query.java:120)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:405)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:734)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	... 95 more
+Caused by: org.postgresql.util.PSQLException: ERROR: column t1_0.completed does not exist
+  Position: 16
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:139)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:251)
+	... 128 more
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   SecurityTest.testAccessProtectedResourceWithValidToken:30 ╗ Servlet Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select t1_0.id,t1_0.completed,t1_0.mail,t1_0.todo_name from todo t1_0] [ERROR: column t1_0.completed does not exist
+  Position: 16] [n/a]; SQL [n/a]
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.617 s
+[INFO] Finished at: 2025-11-30T19:44:14+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.4:test (default-test) on project HelloWorld: 
+[ERROR] 
+[ERROR] See S:\JavaDevelopement\NewProject\HelloWorld\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

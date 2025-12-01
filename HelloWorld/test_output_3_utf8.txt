@@ -1,0 +1,208 @@
+﻿.\mvnw.cmd : 
+WARNING: A 
+terminally 
+deprecated method in 
+sun.misc.Unsafe has 
+been called
+At line:1 char:1
++ .\mvnw.cmd test 
+-Dtest=SecurityTest 
+> test_output_3.txt 
+2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : 
+NotSpecifi    ed: 
+(WARNING: A te    
+rm...has been call   
+ ed:String) [], Rem  
+  oteException
+    + 
+FullyQualifiedEr    
+rorId : NativeComm   
+ andError
+ 
+WARNING: sun.misc.Uns
+afe::staticFieldBase 
+has been called by co
+m.google.inject.inter
+nal.aop.HiddenClassDe
+finer (file:/C:/Users
+/aruns/.m2/wrapper/di
+sts/apache-maven-3.9.
+11/03d7e36a140982eea4
+8e22c1dcac01d8862b255
+0b2939e09a0809bbc5182
+a5bc/lib/guice-5.1.0-
+classes.jar)
+WARNING: Please 
+consider reporting 
+this to the 
+maintainers of class 
+com.google.inject.int
+ernal.aop.HiddenClass
+Definer
+WARNING: sun.misc.Uns
+afe::staticFieldBase 
+will be removed in a 
+future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< arun.firstspring:HelloWorld >---------------------
+[INFO] Building HelloWorld 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ HelloWorld ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ HelloWorld ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ HelloWorld ---
+[INFO] skip non existing resourceDirectory S:\JavaDevelopement\NewProject\HelloWorld\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ HelloWorld ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ HelloWorld ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running arun.firstspring.HelloWorld.SecurityTest
+19:48:47.443 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [arun.firstspring.HelloWorld.SecurityTest]: SecurityTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:48:47.688 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration arun.firstspring.HelloWorld.HelloWorldApplication for test class arun.firstspring.HelloWorld.SecurityTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2025-11-30T19:48:48.123+05:30  INFO 11716 --- [HelloWorld] [           main] a.firstspring.HelloWorld.SecurityTest    : Starting SecurityTest using Java 24.0.1 with PID 11716 (started by aruns in S:\JavaDevelopement\NewProject\HelloWorld)
+2025-11-30T19:48:48.124+05:30  INFO 11716 --- [HelloWorld] [           main] a.firstspring.HelloWorld.SecurityTest    : No active profile set, falling back to 1 default profile: "default"
+Mockito is currently 
+self-attaching to 
+enable the 
+inline-mock-maker. 
+This will no longer 
+work in future 
+releases of the JDK. 
+Please add Mockito 
+as an agent to your 
+build as described 
+in Mockito's 
+documentation: https:
+//javadoc.io/doc/org.
+mockito/mockito-core/
+latest/org.mockito/or
+g/mockito/Mockito.htm
+l#0.3
+Java HotSpot(TM) 
+64-Bit Server VM 
+warning: Sharing is 
+only supported for 
+boot loader classes 
+because bootstrap 
+classpath has been 
+appended
+WARNING: A Java 
+agent has been 
+loaded dynamically (C
+:\Users\aruns\.m2\rep
+ository\net\bytebuddy
+\byte-buddy-agent\1.1
+7.7\byte-buddy-agent-
+1.17.7.jar)
+WARNING: If a 
+serviceability tool 
+is in use, please 
+run with -XX:+EnableD
+ynamicAgentLoading 
+to hide this warning
+WARNING: If a 
+serviceability tool 
+is not in use, 
+please run with -Djdk
+.instrument.traceUsag
+e for more 
+information
+WARNING: Dynamic 
+loading of agents 
+will be disallowed 
+by default in a 
+future release
+JwtUtiles: Initialized with secret key hash: -1850706384
+2025-11-30T19:48:50.041+05:30  WARN 11716 --- [HelloWorld] [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a6b91003-d23b-4140-9695-0c9716e2010a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-30T19:48:50.058+05:30  INFO 11716 --- [HelloWorld] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-11-30T19:48:50.787+05:30  INFO 11716 --- [HelloWorld] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-11-30T19:48:50.787+05:30  INFO 11716 --- [HelloWorld] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-11-30T19:48:50.788+05:30  INFO 11716 --- [HelloWorld] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-11-30T19:48:50.817+05:30  INFO 11716 --- [HelloWorld] [           main] a.firstspring.HelloWorld.SecurityTest    : Started SecurityTest in 3.042 seconds (process running for 3.99)
+JwtFilter: Processing request /todo
+JwtFilter: Processing token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIn0.CPtinmsQ6myl7ePy92VtSlYzCyo9CJsi34ZwDgmTets
+JwtUtiles: Validating token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIn0.CPtinmsQ6myl7ePy92VtSlYzCyo9CJsi34ZwDgmTets
+JwtFilter: Token valid for user: test@example.com
+TodoControler: getTodos called
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /todo
+       Parameters = {}
+          Headers = [Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIn0.CPtinmsQ6myl7ePy92VtSlYzCyo9CJsi34ZwDgmTets"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = arun.firstspring.HelloWorld.Controler.TodoControler
+           Method = arun.firstspring.HelloWorld.Controler.TodoControler#getTodos()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", X-Auth-Debug:"Success", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = application/json
+             Body = []
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.734 s -- in arun.firstspring.HelloWorld.SecurityTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.887 s
+[INFO] Finished at: 2025-11-30T19:48:51+05:30
+[INFO] ------------------------------------------------------------------------
