@@ -17,12 +17,12 @@ import java.util.List;
 @RequestMapping("/todo")
 @Slf4j
 
-public class TodoControler {
+public class TodoController {
 
     @Autowired
     private TodoServies todoService;
 
-    // Path Variable
+     //Path Variable
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Todo Retrieved Successfully"),
             @ApiResponse(responseCode = "404", description = "Todo was not found!")
@@ -49,7 +49,7 @@ public class TodoControler {
     }
 
     @PostMapping("/create")
-    ResponseEntity<Todo> createUser(@RequestBody Todo todo) {
+    public ResponseEntity<Todo> createUser(@RequestBody Todo todo) {
         Todo createdTodo = todoService.createTodo(todo);
         return new ResponseEntity<>(createdTodo, HttpStatus.CREATED);
     }

@@ -17,6 +17,9 @@ public class Todo {
     Long id;
     @NotNull
     @NotBlank
-    String title;
+    String todo_name;
+    @Email
+    String mail;
+
 
 }
