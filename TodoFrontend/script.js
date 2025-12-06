@@ -1,200 +1,195 @@
-// // Shared script for login, register, and todos pages
-// const SERVER_URL = "http://localhost:8080";
-// const token = localStorage.getItem("token");
+// --------------------- CONFIG ---------------------
+const SERVER_URL = "http://localhost:8080";
+let token = localStorage.getItem("token");
 
-// // --------------------- LOGIN ---------------------
-// function login() {
-//     const email = document.getElementById("email").value;
-//     const password = document.getElementById("password").value;
+// --------------------- AUTHENTICATION ---------------------
+function login() {
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
 
-//     fetch(`${SERVER_URL}/auth/login`, {
-//         method: "POST",
-//         headers: { "Content-Type": "application/json" },
-//         body: JSON.stringify({ email, password })
-//     })
-//         .then(res => {
-//             if (!res.ok) throw new Error("Login failed");
-//             return res.json();
-//         })
-//         .then(data => {
-//             localStorage.setItem("token", data.token);
-//             window.location.href = "todos.html";
-//         })
-//         .catch(error => {
-//             alert("Invalid credentials");
-//         });
-// }
+    
+        fetch(`${SERVER_URL}/auth/login`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email, password })
+        })
+        .then(Response=>
+        {
+            if(!Response.ok){
+                throw new Error(data.message || "Register Failed")
+            }
+            return Response.json();
 
-// // --------------------- REGISTER ---------------------
-// function register() {
-//     const email = document.getElementById("email").value;
-//     const password = document.getElementById("password").value;
+        })
+        .then(data=>{
+            localStorage.setItem("token",data.token)
+            window.location="todos.html";
+        })
+        .catch(error =>{
+            alert(error.message);
+        })
+}
 
-//     fetch(`${SERVER_URL}/auth/register`, {
-//         method: "POST",
-//         headers: { "Content-Type": "application/json" },
-//         body: JSON.stringify({ email, password })
-//     })
-//         .then(res => {
-//             if (!res.ok) throw new Error("Registration failed");
-//             alert("Registered Successfully");
-//             window.location.href = "login.html";
-//         })
-//         .catch(error => {
-//             alert("Email already exists");
-//         });
-// }
+function register() {
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
 
-// // --------------------- CREATE TODO CARD ---------------------
-// function createTodoCard(todo) {
-//     const card = document.createElement("div");
-//     card.className = "todo-card";
+    
+        fetch(`${SERVER_URL}/auth/register`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email, password })
+        })
+        .then(Response=>
+        {
+            if(Response.ok){
+                alert("Registered Successfully");
+                window.location.href = "login.html";
+            }
+            else{
+                return Response.json().then(data =>{throw new Error(data.message || "Register Failed")})
+            }
+        }).catch(error =>{
+            alert(error.message);
+        })
+}
 
-//     const checkbox = document.createElement("input");
-//     checkbox.type = "checkbox";
-//     checkbox.checked = todo.complete;
+// --------------------- TODO CARD ---------------------
+function createTodoCard(todo) {
+    const card = document.createElement("div");
+    card.className = "todo-card";
 
-//     checkbox.addEventListener("change", function () {
-//         const update = { ...todo, complete: checkbox.checked };
-//         updateTodoStatus(update);
-//     });
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.checked = todo.isCompleted;
 
-//     const span = document.createElement("span");
-//     span.textContent = todo.title;
+    checkbox.addEventListener("change", function() {
+        const updateTodo ={...todo ,isCompleted:checkbox.checked}
+        updateTodoStatus(updateTodo);
+    });
 
-//     if (todo.complete) {
-//         span.style.textDecoration = "line-through";
-//         span.style.color = "#aaa";
-//     }
+    const span = document.createElement("span");
+    span.textContent = todo.title;
+    if (todo.isCompleted) {
+        span.style.textDecoration = "line-through";
+        span.style.color = "#aaa";
+    }
 
-//     const deleteBtn = document.createElement("button");
-//     deleteBtn.textContent = "X";
-//     deleteBtn.onclick = function () {
-//         deleteTodo(todo.id);
-//     };
+    const deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "X";
+    deleteBtn.onclick = function(){ deleteTodo(todo.id)};
 
-//     card.appendChild(checkbox);
-//     card.appendChild(span);
-//     card.appendChild(deleteBtn);
+    card.appendChild(checkbox);
+    card.appendChild(span);
+    card.appendChild(deleteBtn);
 
-//     return card;
-// }
+    return card;
+}
 
-// // --------------------- LOAD TODOS ---------------------
-// function loadTodos() {
-//     if (!token) {
-//         alert("Login first. No token found!");
-//         window.location.href = "login.html";
-//         return;
-//     }
+// --------------------- LOAD TODOS ---------------------
+function loadTodos() {
+    if (!token) {
+        alert("Please login first");
+        window.location.href = "login.html";
+        return;
+    }
 
-//     console.log("Loading todos with token:", token);
-//     fetch(`${SERVER_URL}/todo`, {
-//         method: "GET",
-//         headers: {
-//             Authorization: `Bearer ${token}`
-//         }
-//     })
-//         .then(async res => {
-//             if (res.status === 401 || res.status === 403) {
-//                 const debugInfo = res.headers.get("X-Auth-Debug");
-//                 alert(`Session expired debug: Status ${res.status}. Debug: ${debugInfo}`);
-//                 localStorage.removeItem("token");
-//                 window.location.href = "login.html";
-//                 return;
-//             }
-//             if (!res.ok) {
-//                 const text = await res.text();
-//                 throw new Error(`Failed to load todos: ${res.status} ${text}`);
-//             }
-//             return res.json();
-//         })
-//         .then(todos => {
-//             if (!todos) return; // Handle case where we redirected
-//             const todoList = document.getElementById("todo-list");
-//             todoList.innerHTML = "";
+    fetch(`${SERVER_URL}/todo`, {
+            method:"GET",
+            headers: { Authorization: `Bearer ${token}` }
+        })
+        .then(Response=>{
+            if (!res.ok){
+                 throw new Error("Failed to load todos");
+            }
+            return Response.json();    
+        })
+        .then((todos)=>{
+            const  todoList=document.getElementById("todo-list")
+            todoList.innerHTML="";
 
-//             if (todos.length === 0) {
-//                 todoList.innerHTML = `<p>No todos found</p>`;
-//             } else {
-//                 todos.forEach(todo => {
-//                     todoList.appendChild(createTodoCard(todo));
-//                 });
-//             }
-//         })
-//         .catch(error => {
-//             console.error("Load todos error:", error);
-//             document.getElementById("todo-list").innerHTML =
-//                 `<p style="color:red">Error loading todos: ${error.message}</p>`;
-//         });
-// }
+            if(!todos || todos.length===0){
+                todoList.innerHTML=`<p>asdfgh</p>`
+            }
+            else {
+            todos.forEach(todo => todoList.appendChild(createTodoCard(todo)));
+        }
+        })
+        .catch(error=>{
+            alert(error.message);
+            // document.getElementById("todo-list").innerHTML=`<p>asdfghjkl</p>`;
+        })
+}
 
-// // --------------------- ADD TODO ---------------------
-// function addTodo() {
-//     const input = document.getElementById("new-todo");
-//     const title = input.value.trim();
+// --------------------- ADD TODO ---------------------
+async function addTodo() {
+    const input = document.getElementById("new-todo");
+    const title = input.value.trim();
 
-//     if (title === "") {
-//         alert("Enter todo");
-//         return;
-//     }
+    if (!title) {
+        alert("Enter a todo");
+        return;
+    }
 
-//     fetch(`${SERVER_URL}/todo/create`, {
-//         method: "POST",
-//         headers: {
-//             "Content-Type": "application/json",
-//             Authorization: `Bearer ${token}`
-//         },
-//         body: JSON.stringify({ title: title, complete: false })
-//     })
-//         .then(res => {
-//             if (!res.ok) throw new Error("Failed to add todo");
-//             return res.json();
-//         })
-//         .then(newTodo => {
-//             input.value = "";
-//             loadTodos();
-//         })
-//         .catch(() => alert("Error adding todo"));
-// }
+    try {
+        const res = await fetch(`${SERVER_URL}/todo/create`, {
+            method: "POST",
+            headers: { 
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${token}`
+            },
+            body: JSON.stringify({ title, complete: false })
+        });
 
-// // --------------------- UPDATE TODO STATUS ---------------------
-// function updateTodoStatus(todo) {
-//     fetch(`${SERVER_URL}/todo/${todo.id}`, {
-//         method: "PUT",
-//         headers: {
-//             "Content-Type": "application/json",
-//             Authorization: `Bearer ${token}`
-//         },
-//         body: JSON.stringify(todo)
-//     })
-//         .then(res => {
-//             if (!res.ok) throw new Error("Failed to update todo");
-//             return res.json();
-//         })
-//         .then(() => loadTodos())
-//         .catch(() => alert("Error updating todo"));
-// }
+        if (!res.ok) throw new Error("Failed to add todo");
 
-// // --------------------- DELETE TODO ---------------------
-// function deleteTodo(id) {
-//     fetch(`${SERVER_URL}/todo/${id}`, {
-//         method: "DELETE",
-//         headers: {
-//             Authorization: `Bearer ${token}`
-//         }
-//     })
-//         .then(res => {
-//             if (!res.ok) throw new Error("Failed to delete");
-//             return res.text();
-//         })
-//         .then(() => loadTodos())
-//         .catch(() => alert("Error deleting todo"));
-// }
+        input.value = "";
+        loadTodos();
 
-// // --------------------- INITIALIZE ---------------------
-// document.addEventListener("DOMContentLoaded", function () {
-//     if (document.getElementById("todo-list")) {
-//         loadTodos();
-//     }
-// });
+    } catch (err) {
+        alert("Error adding todo");
+    }
+}
+
+// --------------------- UPDATE TODO ---------------------
+async function updateTodoStatus(todo) {
+    try {
+        const res = await fetch(`${SERVER_URL}/todo/${todo.id}`, {
+            method: "PUT",
+            headers: { 
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${token}`
+            },
+            body: JSON.stringify(todo)
+        });
+
+        if (!res.ok) throw new Error("Failed to update todo");
+
+        loadTodos();
+
+    } catch (err) {
+        alert("Error updating todo");
+    }
+}
+
+// --------------------- DELETE TODO ---------------------
+async function deleteTodo(id) {
+    try {
+        const res = await fetch(`${SERVER_URL}/todo/${id}`, {
+            method: "DELETE",
+            headers: { Authorization: `Bearer ${token}` }
+        });
+
+        if (!res.ok) throw new Error("Failed to delete todo");
+
+        loadTodos();
+
+    } catch (err) {
+        alert("Error deleting todo");
+    }
+}
+
+// --------------------- INITIALIZE ---------------------
+document.addEventListener("DOMContentLoaded", () => {
+    if (document.getElementById("todo-list")) loadTodos();
+});

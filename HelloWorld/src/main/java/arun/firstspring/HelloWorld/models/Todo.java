@@ -1,5 +1,6 @@
 package arun.firstspring.HelloWorld.models;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -17,9 +18,13 @@ public class Todo {
     Long id;
     @NotNull
     @NotBlank
-    String todo_name;
-    @Email
-    String mail;
+    @Schema(name = "title", example = "Complete Spring Boot")
+    String title;
+    @NotNull
+    @NotBlank
+    String description;
+    Boolean isCompleted;
+
 
 
 }

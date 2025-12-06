@@ -1,11 +1,10 @@
 package arun.firstspring.HelloWorld.Servies;
 
 import arun.firstspring.HelloWorld.models.Todo;
-import arun.firstspring.HelloWorld.repociter.TodoRepociter;
+import arun.firstspring.HelloWorld.repository.TodoRepociter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.stereotype.Component;
 
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

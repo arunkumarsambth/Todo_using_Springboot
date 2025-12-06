@@ -1,4 +1,4 @@
-package arun.firstspring.HelloWorld.repociter;
+package arun.firstspring.HelloWorld.repository;
 
 
 //import arun.firstspring.HelloWorld.models.Todo;
