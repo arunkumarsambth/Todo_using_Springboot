@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Edit Todo</h2>
+        <div class="form-group">
+            <label for="edit-id">Todo ID:</label>
+            <input type="text" id="edit-id" placeholder="Enter Todo ID">
+        </div>
+        <div class="form-group">
+            <label for="edit-title">Title:</label>
+            <input type="text" id="edit-title">
+        </div>
+        <div class="form-group">
+            <label>Status:</label>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <input type="checkbox" id="edit-completed" class="todo-checkbox">
+                <span>Completed</span>
+            </div>
+        </div>
+        <button onclick="saveEdit()">Save Changes</button>
+        <button onclick="cancelEdit()" style="background-color: #6c757d; margin-top: 10px;">Cancel</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Load todo data on page load
+        // Load todo data on page load
+        document.addEventListener("DOMContentLoaded", () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const todoId = urlParams.get('id');
+            const title = urlParams.get('title');
+            const completed = urlParams.get('completed') === 'true';
+
+            if (todoId) {
+                document.getElementById('edit-id').value = todoId;
+                document.getElementById('edit-id').readOnly = true; // Optional: Lock it if came from list
+            }
+            if (title) document.getElementById('edit-title').value = title;
+            if (completed !== null) document.getElementById('edit-completed').checked = completed;
+        });
+
+        function saveEdit() {
+            // Get ID from the input field now
+            const id = document.getElementById('edit-id').value;
+            const title = document.getElementById('edit-title').value;
+            const isCompleted = document.getElementById('edit-completed').checked;
+
+            if (!id) {
+                alert("Please enter a Todo ID");
+                return;
+            }
+
+            const todo = {
+                id: id,
+                title: title,
+                isCompleted: isCompleted,
+                description: "Manual Update"
+            };
+
+            updateTodoStatus(todo)
+                .then(() => {
+                    window.location.href = "todos.html";
+                });
+        }
+
+        function cancelEdit() {
+            window.location.href = "todos.html";
+        }
+    </script>
+</body>
+
+</html>

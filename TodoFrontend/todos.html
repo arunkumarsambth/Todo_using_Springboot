@@ -10,15 +10,26 @@
 
 <body>
     <div class="container">
-        <h2>Your Todos</h2>
+        <header
+            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; border-bottom: 1px solid #eee; padding-bottom: 10px;">
+            <h2 style="margin: 0;">My Todos</h2>
+            <nav>
+                <a href="list.html" class="nav-link">📄 Table View</a>
+                <button onclick="logout()" class="logout-btn">Logout</button>
+            </nav>
+        </header>
 
-        <div id="todo-list" class="todo-cards">
-            <p id="empty-message">Loading your todos...</p>
+        <div class="add-todo-section" style="margin-bottom: 2rem;">
+            <h3>Add New Task</h3>
+            <div class="add-todo">
+                <input type="text" id="new-todo" placeholder="What needs to be done?" />
+                <button onclick="addTodo()">+ Add</button>
+            </div>
         </div>
 
-        <div class="add-todo">
-            <input type="text" id="new-todo" placeholder="Add new todo" />
-            <button onclick="addTodo()">Add</button>
+        <h3>Your Task List</h3>
+        <div id="todo-list" class="todo-cards">
+            <p id="empty-message">Loading your todos...</p>
         </div>
     </div>
 

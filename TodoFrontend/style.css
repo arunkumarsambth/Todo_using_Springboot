@@ -20,6 +20,7 @@
     margin-left: 0;
     margin-right: 0.75rem;
 }
+
 /* Reset and base styling */
 * {
     box-sizing: border-box;
@@ -163,4 +164,47 @@ button:hover {
     color: #888;
     font-style: italic;
     margin-top: 1rem;
+}
+
+/* Add these to the existing style.css */
+
+.nav-link {
+    text-decoration: none;
+    color: #1976d2;
+    font-weight: bold;
+    margin-right: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.nav-link:hover {
+    background-color: #f0f8ff;
+}
+
+.logout-btn {
+    background-color: #dc3545 !important;
+    /* Red */
+    width: auto !important;
+    padding: 5px 15px !important;
+    font-size: 0.9em !important;
+    margin: 0 !important;
+}
+
+.logout-btn:hover {
+    background-color: #c82333 !important;
+}
+
+.add-todo-section {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.add-todo-section h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #555;
 }

@@ -16,6 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/todo")
 @Slf4j
+@CrossOrigin("*")
 
 public class TodoController {
 
@@ -38,7 +39,7 @@ public class TodoController {
         }
     }
 
-    @GetMapping
+    @GetMapping("/get")
     ResponseEntity<List<Todo>> getTodos() {
         return new ResponseEntity<List<Todo>>(todoService.getTodos(), HttpStatus.OK);
     }
